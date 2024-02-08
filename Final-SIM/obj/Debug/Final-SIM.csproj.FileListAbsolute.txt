@@ -1,0 +1,11 @@
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final-SIM.csproj.AssemblyReference.cache
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final_SIM.FormPrincipal.resources
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final_SIM.Forms.FormSimulacion.resources
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final_SIM.Properties.Resources.resources
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final-SIM.csproj.GenerateResource.cache
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final-SIM.csproj.CoreCompileInputs.cache
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\bin\Debug\Final-SIM.exe.config
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\bin\Debug\Final-SIM.exe
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\bin\Debug\Final-SIM.pdb
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final-SIM.exe
+C:\Users\schne\OneDrive\Escritorio\Final-SIM\Final-SIM\obj\Debug\Final-SIM.pdb

@@ -46,14 +46,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Entidades\Estado.cs" />
+    <Compile Include="Entidades\Estados\Destruido.cs" />
+    <Compile Include="Entidades\Estados\EsperandoGomeria.cs" />
+    <Compile Include="Entidades\Estados\EsperandoSurtidor.cs" />
+    <Compile Include="Entidades\Estados\EsperandoVentas.cs" />
+    <Compile Include="Entidades\Estados\Libre.cs" />
+    <Compile Include="Entidades\Estados\Ocupado.cs" />
+    <Compile Include="Entidades\Estados\SiendoAtendidoGome.cs" />
+    <Compile Include="Entidades\Estados\SiendoAtendidoSurt.cs" />
+    <Compile Include="Entidades\Estados\SiendoAtendidoVent.cs" />
+    <Compile Include="Entidades\Fila.cs" />
+    <Compile Include="Entidades\Servidor.cs" />
+    <Compile Include="Entidades\Simulacion.cs" />
+    <Compile Include="Entidades\Temporal.cs" />
+    <Compile Include="Forms\FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSimulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSimulacion.Designer.cs">
+      <DependentUpon>FormSimulacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSimulacion.resx">
+      <DependentUpon>FormSimulacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +102,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
